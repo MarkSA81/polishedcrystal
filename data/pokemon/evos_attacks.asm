@@ -4190,6 +4190,7 @@ XatuEvosAttacks:
 MareepEvosAttacks:
 	evo_data EVOLVE_LEVEL, 15, FLAAFFY
 	db -1 ; no more evolutions
+	db 1, FRESH_SNACK
 	db 1, TACKLE
 	db 1, GROWL
 	db 4, THUNDER_WAVE
@@ -4214,6 +4215,7 @@ else
 	evo_data EVOLVE_LEVEL, 36, AMPHAROS
 endc
 	db -1 ; no more evolutions
+	db 1, FRESH_SNACK
 	db 1, TACKLE
 	db 1, GROWL
 	db 4, THUNDER_WAVE
@@ -4233,6 +4235,7 @@ endc
 
 AmpharosEvosAttacks:
 	db -1 ; no more evolutions
+	db 1, FRESH_SNACK
 	db 1, THUNDERPUNCH ; evolution move
 	db 1, FIRE_PUNCH
 	db 1, DRAGON_PULSE
