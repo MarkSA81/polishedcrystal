@@ -148,7 +148,7 @@ BattleAnimations::
 	fardw BattleAnim_BraveBird
 	fardw BattleAnim_Transform
 	fardw BattleAnim_WaterPulse
-	fardw BattleAnim_DizzyPunch
+	fardw BattleAnim_ShadowBone
 	fardw BattleAnim_Spore
 	fardw BattleAnim_Flash
 	fardw BattleAnim_Extrasensory
