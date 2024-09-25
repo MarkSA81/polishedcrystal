@@ -146,7 +146,7 @@ MoveNames::
 	li "Brave Bird"
 	li "Transform"
 	li "Water Pulse"
-	li "Dizzy Punch"
+	db "Shadow Bone"
 	li "Spore"
 	li "Flash"
 	li "Extrasensory"
