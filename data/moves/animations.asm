@@ -1988,17 +1988,20 @@ BattleAnim_CalmMind:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_DizzyPunch:
-	anim_2gfx ANIM_GFX_STATUS, ANIM_GFX_HIT
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -15, 0,   5, 0, $0
-	anim_obj ANIM_OBJ_HIT_SMALL_YFIX, -15, 0,   8, 0, $0
-	anim_wait 16
-	anim_sound 0, 1, SFX_KINESIS
-	anim_obj ANIM_OBJ_CHICK, -15, 0,   3, 0, $15
-	anim_obj ANIM_OBJ_CHICK, -15, 0,   3, 0, $aa
-	anim_obj ANIM_OBJ_CHICK, -15, 0,   3, 0, $bf
-	anim_wait 96
+BattleAnim_ShadowBone:
+	anim_2gfx ANIM_GFX_MISC, ANIM_GFX_FIRE
+	anim_sound 0, 1, SFX_CUT
+	anim_obj ANIM_OBJ_BONE_CLUB, 64, 88, $2
+	anim_wait 32
+	anim_bgp $1b
+	anim_obj ANIM_OBJ_BONE_RUSH, 132, 56, $2
+	anim_sound 0, 0, SFX_CURSE
+.loop
+	anim_obj ANIM_OBJ_BLUE_FLAME, 120, 62, $10
+	anim_wait 6
+	anim_obj ANIM_OBJ_BLUE_FLAME, 146, 42, $90
+	anim_loop 2, .loop
+	anim_wait 32
 	anim_ret
 
 BattleAnim_Rest:
