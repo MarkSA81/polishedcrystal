@@ -146,7 +146,7 @@ MoveDescriptions::
 	dw BraveBirdDescription
 	dw TransformDescription
 	dw WaterPulseDescription
-	dw DizzyPunchDescription
+	dw ShadowBoneDescription
 	dw SporeDescription
 	dw FlashDescription
 	dw ExtrasensoryDescription
@@ -400,7 +400,6 @@ BlizzardDescription:
 
 PsybeamDescription:
 ConfusionDescription:
-DizzyPunchDescription:
 WaterPulseDescription:
 HurricaneDescription:
 	text "An attack that may"
@@ -451,6 +450,7 @@ if !DEF(FAITHFUL)
 endc
 CrunchDescription:
 IronTailDescription:
+ShadowBoneDescription:
 	text "An attack that may"
 	next "lower Defense."
 	done
